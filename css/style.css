@@ -40,4 +40,61 @@ nav a:hover{
 .page-title {
     text-align: center;
     padding-top: 10px;
+    padding-bottom: 30px;
+}
+
+.topics-title, .projects-title {
+    padding-left: 40px;
+    padding-top: 30px;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-column-gap: 50px;
+    grid-row-gap: 50px;
+    padding: 10px;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.grid-container-topics {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    grid-column-gap: 40px;
+    padding: 10px;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.grid-container-projects {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    grid-column-gap: 40px;
+    padding: 10px;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.grid-item {
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    font-size: 20px;
+    text-align: left;
+    height: 100px;
+}
+
+.topics{
+    height: 125px;
+}
+
+.projects {
+    height: 160px;
+}
+
+.A, .B {
+    height: 120px;
 }
