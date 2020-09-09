@@ -98,3 +98,23 @@ nav a:hover{
 .A, .B {
     height: 120px;
 }
+
+.continue-button {
+    text-align: right;
+    background-color: #E58C70;
+    position: relative;
+    top: 111px;
+    height: 35px;
+    padding-top: 10px;
+    padding-right: 10px;
+    width: auto;
+}
+
+.continue-button a{
+    text-decoration: none;
+    color: #242933;
+}
+
+.continue-button a:hover{
+    color: rgb(255, 255, 255);
+}
