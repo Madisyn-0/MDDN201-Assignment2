@@ -1,9 +1,9 @@
 *{
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family: 'Open Sans', sans-serif;
 }
 
 body {
-    background-color: rgb(219, 222, 224); /* light grey */
+    background-color: #EBEDF0;
     padding-left: 10px;
     padding-right: 10px;
 
@@ -12,8 +12,8 @@ body {
 nav{
     text-align: center;
     padding-top: 10px;
-    background-color: #B2C9D9;
-    height: 35px;
+    background-color: #B2C9D9; 
+    height: 40px;
 }
 
 nav a{
@@ -27,7 +27,7 @@ nav a:hover{
     color: #E58C70;
 }
 
-.current:hover{
+.current-page:hover{
 	color: #7DA3C5;
 }
 
@@ -39,20 +39,22 @@ nav a:hover{
     width: auto;
 }
 
-.current {
+.current-page {
     padding-top: 10px;
     height: 20px;
-    background-color: rgb(219, 222, 224); /* light grey */
+    background-color: #EBEDF0;
     color: #E58C70;
 }
 
 .topics-title, .projects-title {
     padding-left: 40px;
+    color: #7DA3C5;
 }
 
 .topics-title1, .projects-title1 {
     padding-left: 40px;
     padding-top: 30px;
+    color: #7DA3C5;
 }
 
 .grid-container {
@@ -95,11 +97,11 @@ nav a:hover{
 }
 
 .topics{
-    height: 125px;
+    height: 185px;
 }
 
 .projects {
-    height: 160px;
+    height: 180px;
 }
 
 .A, .B {
@@ -119,12 +121,12 @@ nav a:hover{
 }
 
 .select-button {
-    top: 76px;
+    top: 116px;
 }
 
 .level {
     position: relative;
-    bottom: 18px;
+    bottom: 16px;
     float: left;
     padding-left: 10px;
     text-decoration: none;
@@ -134,9 +136,14 @@ nav a:hover{
 
 .continue-button a, .select-button a{
     text-decoration: none;
-    color: #242933;
+    color: rgb(255, 255, 255);
 }
 
 .continue-button a:hover, .select-button a:hover{
-    color: rgb(255, 255, 255);
+    color: #242933;
+}
+
+.info-text {
+    text-align: justify;
+    font-size: 18px;
 }
