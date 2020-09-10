@@ -12,38 +12,45 @@ body {
 nav{
     text-align: center;
     padding-top: 10px;
-    background-color: cadetblue;
-    height: 30px;
+    background-color: #B2C9D9;
+    height: 35px;
 }
 
 nav a{
-    padding: 30px;
+    padding: 35px;
     color: white;
     text-decoration: none;
+    font-size: 20px;
 }
 
 nav a:hover{
-    color: black;
+    color: #E58C70;
 }
 
 .current:hover{
-	color: cadetblue;
+	color: #7DA3C5;
+}
+
+.logo-image img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 20vw;
+    width: auto;
 }
 
 .current {
     padding-top: 10px;
     height: 20px;
     background-color: rgb(219, 222, 224); /* light grey */
-    color: black;
-}
-
-.page-title {
-    text-align: center;
-    padding-top: 10px;
-    padding-bottom: 30px;
+    color: #E58C70;
 }
 
 .topics-title, .projects-title {
+    padding-left: 40px;
+}
+
+.topics-title1, .projects-title1 {
     padding-left: 40px;
     padding-top: 30px;
 }
@@ -61,7 +68,7 @@ nav a:hover{
 
 .grid-container-topics {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1fr;
     grid-column-gap: 40px;
     padding: 10px;
@@ -99,7 +106,8 @@ nav a:hover{
     height: 120px;
 }
 
-.continue-button {
+
+.continue-button, .select-button {
     text-align: right;
     background-color: #E58C70;
     position: relative;
@@ -110,11 +118,25 @@ nav a:hover{
     width: auto;
 }
 
-.continue-button a{
+.select-button {
+    top: 76px;
+}
+
+.level {
+    position: relative;
+    bottom: 18px;
+    float: left;
+    padding-left: 10px;
+    text-decoration: none;
+    color: #242933;
+    font-size: 18px;
+}
+
+.continue-button a, .select-button a{
     text-decoration: none;
     color: #242933;
 }
 
-.continue-button a:hover{
+.continue-button a:hover, .select-button a:hover{
     color: rgb(255, 255, 255);
 }
