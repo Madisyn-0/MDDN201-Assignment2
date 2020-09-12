@@ -46,6 +46,21 @@ nav a:hover{
     color: #E58C70;
 }
 
+.language-title, .topic-title {
+    color: #E58C70;
+}
+
+.language-titleA, .language-titleB {
+    text-align: center;
+    color: #E58C70;
+}
+
+
+.info-text {
+    text-align: justify;
+    font-size: 18px;
+}
+
 .topics-title, .projects-title {
     padding-left: 40px;
     color: #7DA3C5;
@@ -61,11 +76,10 @@ nav a:hover{
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr;
-    grid-column-gap: 50px;
+    grid-column-gap: 70px;
     grid-row-gap: 50px;
-    padding: 10px;
-    padding-left: 40px;
-    padding-right: 40px;
+    padding-left: 70px;
+    padding-right: 70px;
 }
 
 .grid-container-topics {
@@ -90,38 +104,31 @@ nav a:hover{
 
 .grid-item {
     background-color: rgba(255, 255, 255, 0.8);
-    padding: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
     font-size: 20px;
     text-align: left;
-    height: 100px;
+    height: auto;
+    max-height: max-content;
+    width: auto;
 }
-
-.topics{
-    height: 185px;
-}
-
-.projects {
-    height: 180px;
-}
-
-.A, .B {
-    height: 120px;
-}
-
 
 .continue-button, .select-button {
     text-align: right;
     background-color: #E58C70;
-    position: relative;
+    /* position: relative;
     top: 111px;
-    height: 35px;
+    height: 35px; */
     padding-top: 10px;
     padding-right: 10px;
-    width: auto;
+    padding-bottom: 10px;
+
 }
 
-.select-button {
-    top: 116px;
+.learn-button {
+    text-align: right;
+    padding-right: 10px;
+    padding-bottom: 20px;
 }
 
 .level {
@@ -139,11 +146,16 @@ nav a:hover{
     color: rgb(255, 255, 255);
 }
 
-.continue-button a:hover, .select-button a:hover{
+.learn-button a {
+    text-decoration: none;
+    color: #E58C70;
+}
+
+.learn-button a:hover {
     color: #242933;
 }
 
-.info-text {
-    text-align: justify;
-    font-size: 18px;
+.continue-button a:hover, .select-button a:hover{
+    color: #242933;
+    
 }
