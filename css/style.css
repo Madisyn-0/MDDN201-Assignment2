@@ -6,7 +6,6 @@ body {
     background-color: #EBEDF0;
     padding-left: 10px;
     padding-right: 10px;
-
 }
 
 nav{
@@ -32,6 +31,14 @@ nav a:hover{
 }
 
 .logo-image img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 20vw;
+    width: auto;
+}
+
+.topic-img{
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -137,7 +144,8 @@ nav a:hover{
     background-color: #242933;
     color: #7DA3C5;
     padding: 20px;
-    height: 200px;
+    max-height: max-content;
+    width: auto;
 }
 
 .server {
