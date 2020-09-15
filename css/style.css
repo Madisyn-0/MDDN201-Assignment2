@@ -44,6 +44,7 @@ nav a:hover{
     margin-right: auto;
     height: 20vw;
     width: auto;
+    padding-bottom: 20px;
 }
 
 .current-page {
@@ -85,20 +86,38 @@ nav a:hover{
 }
 
 .create-group {
-    float: right;
-    background-color: #ffffff;
-    padding-right: 90px;
-    position: relative;
-    bottom: 40px;
-    right: 40px;
-    height: max-content;
-    width: max-content;
+    padding-left: 40px;
 }
 
-.group {
+#group {
     text-align: left;
-    padding-left: 10px;
+    /* padding-left: 10px; */
     color: #7DA3C5;
+    position: relative;
+    left: 200px;
+    bottom: 70px;
+    font-size: 25px;
+}
+
+.button {
+    background-color: #E58C70;
+    border: none;
+    color: #ffffff;
+    padding: 10px 22px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    border-radius: 8px;
+}
+
+.button:hover{
+    background-color: #EBEDF0;
+    color: #7DA3C5;
+    border: 2px solid #E58C70;
 }
 
 .grid-container {
@@ -155,9 +174,6 @@ nav a:hover{
 .continue-button, .select-button {
     text-align: right;
     background-color: #E58C70;
-    /* position: relative;
-    top: 111px;
-    height: 35px; */
     padding-top: 10px;
     padding-right: 10px;
     padding-bottom: 10px;
@@ -197,22 +213,15 @@ nav a:hover{
     color: #E58C70;
 }
 
-.learn-button a:hover {
-    color: #242933;
-}
-
-.continue-button a:hover, .select-button a:hover{
+.learn-button a:hover, .continue-button a:hover, .select-button a:hover{
     color: #242933;
     
 }
 
-.chat {
+.chat, .topic-description {
     background-color: #242933;
     width: auto;
-    padding-top: 20px;
-    padding-bottom: 10px;
-    padding-left: 20px;
-    padding-right: 20px;
+    padding: 20px 20px 10px 20px;
     margin-left: 40px;
     margin-right: 40px;
     font-size: 20px;
@@ -222,14 +231,4 @@ nav a:hover{
 
 .topic-description{
     background-color: rgba(255, 255, 255, 0.8);
-    width: auto;
-    padding-top: 20px;
-    padding-bottom: 10px;
-    padding-left: 20px;
-    padding-right: 20px;
-    margin-left: 40px;
-    margin-right: 40px;
-    font-size: 20px;
-    max-height: max-content;
-    width: auto;
 }
