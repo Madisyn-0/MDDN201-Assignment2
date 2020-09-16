@@ -74,12 +74,12 @@ nav a:hover{
     font-size: 18px;
 }
 
-.topics-title, .projects-title {
+.topics-title {
     padding-left: 40px;
     color: #7DA3C5;
 }
 
-.topics-title1, .projects-title1 {
+.topics-title1, .projects-title {
     padding-left: 40px;
     padding-top: 30px;
     color: #7DA3C5;
@@ -91,12 +91,36 @@ nav a:hover{
 
 #group {
     text-align: left;
-    /* padding-left: 10px; */
+    padding-left: 30px;
     color: #7DA3C5;
     position: relative;
     left: 200px;
     bottom: 70px;
     font-size: 25px;
+}
+
+#group-number {
+    padding: 5px 10px;
+    border: none;
+    outline-color: #ffffff;
+    padding-left: 10px;
+}
+
+#group-number:focus {
+    background-color: rgba(229, 140, 112, 0.7);
+    border: none;
+    color: white;
+    box-sizing: border-box;
+    border: 3px solid #ccc;
+    -webkit-transition: 0.5s;
+    transition: 0.4s;
+    outline-color: #ffffff;
+}
+
+.join-group {
+    color: #7DA3C5;
+    font-size: 20px;
+    padding-right: 10px;
 }
 
 .button {
@@ -118,6 +142,10 @@ nav a:hover{
     background-color: #EBEDF0;
     color: #7DA3C5;
     border: 2px solid #E58C70;
+}
+
+.button:focus {
+    outline-color: #ffffff;
 }
 
 .grid-container {
