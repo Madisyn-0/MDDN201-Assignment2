@@ -106,8 +106,12 @@ nav a:hover{
     padding-left: 10px;
 }
 
+#group-number::placeholder {
+    color: rgb(116, 119, 119);
+}
+
 #group-number:focus {
-    background-color: rgba(229, 140, 112, 0.7);
+    background-color: rgba(229, 140, 112);
     border: none;
     color: white;
     box-sizing: border-box;
@@ -115,6 +119,10 @@ nav a:hover{
     -webkit-transition: 0.5s;
     transition: 0.4s;
     outline-color: #ffffff;
+}
+
+#group-number:focus::placeholder {
+    color: white;
 }
 
 .join-group {
@@ -210,9 +218,7 @@ nav a:hover{
 .type {
     text-align: right;
     background-color: #4D5462;
-    padding-top: 10px;
-    padding-right: 10px;
-    padding-bottom: 10px;
+    width: 100%;
 }
 
 .learn-button {
@@ -259,4 +265,34 @@ nav a:hover{
 
 .topic-description{
     background-color: rgba(255, 255, 255, 0.8);
+}
+
+#chat-input {
+    padding: 5px 10px;
+    border: none;
+    outline-color: #ffffff;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 15px;
+    color: black;
+}
+
+#chat-input::placeholder {
+    color: black;
+}
+
+#chat-input:focus {
+    background-color: rgba(229, 140, 112);
+    border: none;
+    color: white;
+    /* box-sizing: border-box; */
+    border: 3px solid #ccc;
+    -webkit-transition: 0.5s;
+    transition: 0.4s;
+    outline-color: #ffffff;
+}
+
+#chat-input:focus::placeholder {
+    color: white;
 }
