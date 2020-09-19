@@ -48,7 +48,7 @@ nav a:hover{
 }
 
 .active-img {
-    height: 20vw;
+    height: 18vw;
     padding-top: 20px;
 }
 
@@ -75,12 +75,14 @@ nav a:hover{
 .div-title {
     color: #7DA3C5;
     position: relative;
-    top: -25px;
+    top: -10px;
 }
 
 .info-text {
     text-align: justify;
-    font-size: 18px;
+    font-size: 16px;
+    padding-left: 10px;
+    padding-right: 10px;
 }
 
 .topics-title {
@@ -270,7 +272,7 @@ nav a:hover{
 .chat, .topic-description {
     background-color: #242933;
     width: auto;
-    padding: 20px 20px 10px 20px;
+    padding: 5px 15px 10px 20px;
     margin-left: 40px;
     margin-right: 40px;
     font-size: 20px;
@@ -282,19 +284,41 @@ nav a:hover{
     background-color: rgba(255, 255, 255, 0.8);
 }
 
+.messages {
+    padding-left: 10px;
+    max-width: 40%;
+    padding-right: 10px;
+}
+
+.recieved-msg, .sent-msg {
+    background-color: #4D5462;
+    color: #ffffff;
+    padding-left: 15px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-size: 15px;
+}
+
+.sent-msg {
+    text-align: right;
+    padding-right: 15px;
+    position: relative;
+    left: 146%;
+    color: #E58C70;
+}
+
 #chat-input {
-    padding: 5px 10px;
+    padding: 10px 30px;
     border: none;
     outline-color: #ffffff;
     padding-right: 20px;
-    padding-top: 10px;
     padding-bottom: 10px;
     font-size: 15px;
     color: black;
 }
 
 #chat-input::placeholder {
-    color: black;
+    color:#E58C70;
 }
 
 #chat-input:focus {
@@ -315,7 +339,7 @@ nav a:hover{
     width: max-content;
     border-radius: 100%;
     border: 2px solid #E58C70;
-    padding: 10px;
+    padding: 20px;
     position: relative;   
-    top: 65px;
+    top: 43px;
 }
