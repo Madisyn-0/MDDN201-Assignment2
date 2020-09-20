@@ -8,6 +8,7 @@ body {
     padding-right: 10px;
 }
 
+/* nav */
 nav{
     text-align: center;
     padding-top: 10px;
@@ -26,9 +27,18 @@ nav a:hover{
     color: #E58C70;
 }
 
+.current-page {
+    padding-top: 10px;
+    height: 20px;
+    background-color: #EBEDF0;
+    color: #E58C70;
+}
+
 .current-page:hover{
 	color: #7DA3C5;
 }
+
+/* main logo image*/
 
 .logo-image img{
     display: block;
@@ -37,6 +47,8 @@ nav a:hover{
     height: 20vw;
     width: auto;
 }
+
+/* Other images*/
 
 .topic-img, .active-img, .project-img{
     display: block;
@@ -53,15 +65,10 @@ nav a:hover{
 }
 
 .project-img {
-    height: 20vw;
+    height: 18vw;
 }
 
-.current-page {
-    padding-top: 10px;
-    height: 20px;
-    background-color: #EBEDF0;
-    color: #E58C70;
-}
+/* Page titles */
 
 .language-title, .topic-title {
     color: #E58C70;
@@ -76,13 +83,6 @@ nav a:hover{
     color: #7DA3C5;
     position: relative;
     top: -10px;
-}
-
-.info-text {
-    text-align: justify;
-    font-size: 16px;
-    padding-left: 10px;
-    padding-right: 10px;
 }
 
 .topics-title {
@@ -100,6 +100,17 @@ nav a:hover{
     padding-left: 40px;
     color: #7DA3C5;
 }
+
+/* Paragraphs of text */
+
+.info-text {
+    text-align: justify;
+    font-size: 16px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+/* Group button and input */
 
 .create-group {
     padding-left: 40px;
@@ -142,6 +153,12 @@ nav a:hover{
     color: white;
 }
 
+.type {
+    text-align: right;
+    background-color: #4D5462;
+    width: 100%;
+}
+
 .join-group {
     color: #7DA3C5;
     font-size: 25px;
@@ -172,6 +189,8 @@ nav a:hover{
 .button:focus {
     outline-color: #ffffff;
 }
+
+/* Grids */
 
 .grid-container {
     display: grid;
@@ -224,7 +243,9 @@ nav a:hover{
     background-color: rgba(255, 255, 255, 0.8); 
 }
 
-.continue-button, .select-button {
+/* Page navigations */
+
+.continue-button, .select-button, .view-button {
     text-align: right;
     background-color: #E58C70;
     padding-top: 10px;
@@ -232,10 +253,8 @@ nav a:hover{
     padding-bottom: 10px;
 }
 
-.type {
-    text-align: right;
-    background-color: #4D5462;
-    width: 100%;
+.view-button {
+    background-color: #B2C9D9;
 }
 
 .learn-button {
@@ -254,7 +273,7 @@ nav a:hover{
     font-size: 18px;
 }
 
-.continue-button a, .select-button a{
+.continue-button a, .select-button a, .view-button a{
     text-decoration: none;
     color: rgb(255, 255, 255);
 }
@@ -264,10 +283,12 @@ nav a:hover{
     color: #E58C70;
 }
 
-.learn-button a:hover, .continue-button a:hover, .select-button a:hover{
+.learn-button a:hover, .continue-button a:hover, .select-button a:hover, .view-button a:hover{
     color: #242933;
     
 }
+
+/* Active page elements */
 
 .chat, .topic-description {
     background-color: #242933;
@@ -297,6 +318,15 @@ nav a:hover{
     padding-top: 5px;
     padding-bottom: 5px;
     font-size: 15px;
+    border-radius: 10px;
+}
+
+.user1 {
+    border: 2px solid #F3CDBA;
+}
+
+.user2 {
+    border: 2px solid #B2C9D9;
 }
 
 .sent-msg {
@@ -304,7 +334,7 @@ nav a:hover{
     padding-right: 15px;
     position: relative;
     left: 146%;
-    color: #E58C70;
+    border: 2px solid #E58C70;
 }
 
 #chat-input {
@@ -322,7 +352,6 @@ nav a:hover{
 }
 
 #chat-input:focus {
-    border: none;
     color: white;
     border: 3px solid #ccc;
     -webkit-transition: 0.5s;
